@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>es6的import export语法</title>
+	</head>
+	<body>
+		hello es6
+		<p>使用引入模块时要script 标签中的type 属性要设置为 module而不是 text/javascript</p>
+		<xmp><script  src="./main.js" type="module" charset="utf-8"></script></xmp>
+		<div id="showCont">
+			
+		</div>
+		<script  src="./main.js" type="module" charset="utf-8"></script>
+		
+		<!-- 在main.js中没有export setName()这个函数时这样使用是报错的 -->
+		<!-- <script type="module">
+			import {setName} from './main.js'
+			setName(document.getElementById('showCont'));
+		</script> -->
+	</body>
+</html>
