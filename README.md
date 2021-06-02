@@ -1,2 +1,2 @@
-ES6Script使用import导入模块的语法
+#ES6Script使用import导入模块的语法
 1、访问时要用web服务器方式，直接浏览器访问文件会报错，要用域名可是ip方式访问
